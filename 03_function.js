@@ -77,5 +77,12 @@ var squareNum = square(5);
 console.log('Num is 5 and its square is:', squareNum);
 
 
+console.log("===============================");
+function addThreeValues(arg1, arg2, arg3){
+console.log(arg1+arg2+arg3);
+}
+addThreeValues(10.43, 600, 40);
+addThreeValues("Hello", "Good", "Morning");
+
 
 

@@ -76,3 +76,54 @@ var cityAfterEndTrim = city.trimEnd();
 var lengthAfterEndTrim = cityAfterEndTrim,length;
 
 
+console.log("========Includes========");
+
+var result = greet.includes('Morning');
+console.log("Morning is avaliable", result);
+
+
+var result = greet.includes('nin');
+console.log("nin is avaliable", result);
+
+
+
+console.log("========Search========");
+
+var greet = "Good Morning";
+var result = greet.search('orn');
+console.log(result);
+
+
+console.log("========Slice========");
+
+var greet = 'Hello Good Morning';
+var result = greet.slice(6);
+console.log(result);
+
+var result = greet.slice(6,10);
+console.log(result);
+
+
+console.log("========Slit========");
+
+var result = greet.split(" ");
+console.log(result);
+
+// WAP to count total number of words.
+var str = "I am UI developer";
+var words = str.split(" ");
+console.log(words);
+console.log(`total word is ${words.length}`);
+// console.log(typeof words);
+
+// String Templet
+console.log(` I am "UI" Developer `);
+var num1 = 10;
+var num2 = 20;
+var result = num1 + num2;
+console.log("Addition of ", num1, "abd", num2 , "is :", result);
+console.log(` Addition of ${num1} and ${num2}  is: ${result}`);
+
+
+
+
